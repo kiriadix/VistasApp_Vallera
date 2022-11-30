@@ -4,7 +4,7 @@ import { useFonts } from 'expo-font';
 import Header from '../components/Header';
 import Footer from "../components/Footer";
 
-export default function GameConfigurator() {
+export default function GameInstructions() {
   const [loaded] = useFonts({
     ExtraBoldItalic: require("../assets/fonts/OpenSans-ExtraBoldItalic.ttf"),
   });
@@ -19,7 +19,7 @@ export default function GameConfigurator() {
         title={"VERDAD O RETO"}
         newStyles={{ fontFamily: "ExtraBoldItalic" }}
       />
-      <Text>CONFIGURACIONES</Text>
+      <Text>COMO JUGAR</Text>
     </View>
   )
 }
